@@ -1,0 +1,54 @@
+/*div#cardfan {
+	width: 300px;
+	height: 201px;
+	margin: 0 auto;
+}
+div#cardfan img {
+	width: 300px;
+	height: 201px;
+	border: 18px solid #ffe;
+	box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.2);
+}
+div#cardfan img {
+	width: 300px;
+	height: 201px;
+	border: 18px solid #ffe;
+	box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.2);
+	position: absolute;
+}
+div#cardfan:hover img:first-child {
+	transform: rotate(12deg);
+}
+div#cardfan:hover img:last-child {
+	transform: rotate(-12deg);
+}
+div#cardfan img {
+	width: 300px;
+	height: 201px;
+	border: 18px solid #ffe;
+	box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	transform-origin: center 600px;
+  transition: all .6s linear;
+}
+*/
+
+#polaroid {
+//	margin: 0 auto;
+	border: 5px solid #e3e4d3;
+	border-bottom-width: 20px;
+	transition: 3s box-shadow ease-in;
+	box-shadow: 0 0 50px 50px rgba(29, 25, 4, .5) inset,
+		0 0 3px 6px rgba(0, 0, 0, 0.07);
+	width: 220px;
+//	padding-top: 5%;
+//	background-image: url(christine-adams.jpg);
+	background-size: cover;
+ 	filter: sepia(20%);
+}
+
+#polaroid:hover {
+	box-shadow: 0 0 100px 0 rgba(29, 25, 4, 0.8) inset,
+		0 0 3px 6px rgba(0, 0, 0, 0.07);
+	filter: sepia(20%);
+}
